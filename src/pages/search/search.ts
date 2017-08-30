@@ -16,20 +16,25 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
 })
 export class SearchPage {
   searchdata: SearchModel = new SearchModel();
+  sendData: SearchModel = new SearchModel();
 
-
-  constructor(public navCtrl: NavController, public navParams: NavParams ,public searchProvider:SearchProvider) {
+  constructor(public navCtrl: NavController, public navParams: NavParams, public searchProvider: SearchProvider) {
   }
 
   ionViewDidLoad() {
     console.log('ionViewDidLoad SearchPage');
-    this.searchProvider.getData().then(res =>{
+    this.searchProvider.getData().then(res => {
       this.searchdata = res;
+      this.sendData.items = res.items;
     });
   }
-  itemClicked(event){
+  itemClicked(event) {
     alert(JSON.stringify(event));
-    
+
   }
 
+  datafilter($event) {
+    this.sendData.items = $event;
+    console.log("sendData"+this.sendData);
+  }
 }

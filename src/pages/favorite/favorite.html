@@ -14,7 +14,7 @@
 
 
 <ion-content>
-  
+
   <ion-segment [(ngModel)]="tabs">
     <ion-segment-button value="0" (click)="selectTab(0)">
       1
@@ -31,7 +31,10 @@
     <ion-segment-button value="4" (click)="selectTab(4)">
       5
     </ion-segment-button>
-    
+    <ion-segment-button value="5" (click)="selectTab(5)">
+      6
+    </ion-segment-button>
+
   </ion-segment>
   <ion-slides #pageSlider (ionSlideWillChange)="changeWillSlide($event)">
     <ion-slide>
@@ -48,6 +51,9 @@
     </ion-slide>
     <ion-slide>
       <h1>ContentTab 5</h1>
+    </ion-slide>
+    <ion-slide>
+      <h1>ContentTab 6</h1>
     </ion-slide>
   </ion-slides>
 </ion-content>

@@ -40,7 +40,7 @@ export class CartPage {
       .getData()
       .then(data => {
         console.log(data);
-        this.cart = data;
+        this.cart.items = data.items;
         this.loading.dismiss();
       });
   }

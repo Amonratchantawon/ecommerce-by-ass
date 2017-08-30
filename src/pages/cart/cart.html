@@ -15,8 +15,8 @@
 
 <ion-content>
 
-    <!-- <list-cart [cart]="cart"></list-cart> -->
-  <form [formGroup]="counterForm" *ngFor="let item of cart.items">
+    <list-cart [dataCartList]="cart.items"></list-cart>
+  <!-- <form [formGroup]="counterForm" *ngFor="let item of cart.items">
     <ion-list class="counter-list">
       <ion-item class="counter-item">
         <img [src]="item.image">
@@ -24,7 +24,9 @@
         <counter-input formControlName="counter"></counter-input>
       </ion-item>
     </ion-list>
-  </form>
+  </form> -->
+
+
 </ion-content>
 
 <ion-footer>

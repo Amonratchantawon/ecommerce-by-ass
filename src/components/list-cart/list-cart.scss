@@ -1,3 +1,24 @@
 list-cart {
+    .qty-btn {
+        position: fixed;
+        right: 1px;
+        bottom: 1px;
+    }
+    .qty {
+        font-size: 150% !important;
+    }
+
+    .counter-list
+	{
+		@include counter-item-styles($white-d, $theme-color-1, $white);
+    }
+    .categories-title
+    {
+        font-size: 1.2rem;
+        font-weight: 400;
+        letter-spacing: 0.7px;
+        color: $white-d;
+        margin: 8px 8px 16px;
+    }
 
 }

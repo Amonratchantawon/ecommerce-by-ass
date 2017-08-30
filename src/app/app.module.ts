@@ -76,6 +76,7 @@ import { ProfileProvider } from '../providers/profile/profile';
 import { ProductDetailsComponent } from '../components/product-details/product-details';
 import { ShopDetailsComponent } from '../components/shop-details/shop-details';
 import { ListCartComponent } from '../components/list-cart/list-cart';
+import { SearchBarComponent } from '../components/search-bar/search-bar';
 
 
 export function createTranslateLoader(http: Http) {
@@ -113,7 +114,8 @@ export function createTranslateLoader(http: Http) {
     ListProfileComponent,
     ProductDetailsComponent,
     ShopDetailsComponent,
-    ListCartComponent
+    ListCartComponent,
+    SearchBarComponent
 
   ],
   imports: [

@@ -14,8 +14,8 @@
 
 
 <ion-content padding>
-
-    <ion-searchbar (ionInput)="getItems($event)"></ion-searchbar>
-  <list-items [items]="searchdata.items" (itemClicked)="itemClicked($event)"></list-items>
+  <search-bar [items]="searchdata.items" (outdatafilter)="datafilter($event)"></search-bar>
+    <!-- <ion-searchbar (ionInput)="getItems($event)"></ion-searchbar> -->
+  <list-items [items]="sendData.items" (itemClicked)="itemClicked($event)"></list-items>
 
 </ion-content>

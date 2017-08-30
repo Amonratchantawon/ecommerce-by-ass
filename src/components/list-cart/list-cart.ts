@@ -12,7 +12,7 @@ import { Component, Input } from '@angular/core';
 })
 export class ListCartComponent {
 
-  @Input() cartdata:any;
+  @Input() dataCartList:any;
   text: string;
 
   constructor() {
