@@ -1,0 +1,48 @@
+{
+    "today":[
+      {
+        "name": "Martin",
+        "image": "http://forums.ferra.ru/uploads/profile/photo-106401.png",
+        "message": "Adam liked your photo",
+        "date": "5:03 pm"
+      },
+      {
+        "name": "Jessica",
+        "image": "http://forums.ferra.ru/uploads/profile/photo-106401.png",
+        "message": "Justin invited you to the event Bday Party",
+        "date": "2:54 pm"
+      },
+      {
+        "name": "Phillip",
+        "image": "http://forums.ferra.ru/uploads/profile/photo-106401.png",
+        "message": "Alessia wrote on your timeline",
+        "date": "1:54 pm"
+      }
+    ],
+    "yesterday":[
+      {
+        "name": "George",
+        "image": "http://forums.ferra.ru/uploads/profile/photo-106401.png",
+        "message": "Helen mentioned you in a comment",
+        "date": "9:11 pm"
+      },
+      {
+        "name": "Kirsten",
+        "image": "http://forums.ferra.ru/uploads/profile/photo-106401.png",
+        "message": "Ryan commented on your video",
+        "date": "3:09 pm"
+      },
+      {
+        "name": "Judith",
+        "image": "http://forums.ferra.ru/uploads/profile/photo-106401.png",
+        "message": "Don recently likes the photo you’re tagged in",
+        "date": "11:34 am"
+      },
+      {
+        "name": "Diane",
+        "image": "http://forums.ferra.ru/uploads/profile/photo-106401.png",
+        "message": "Giselle and Christian liked your status update",
+        "date": "7:12 am"
+      }
+  ]
+}

@@ -77,6 +77,8 @@ import { ProductDetailsComponent } from '../components/product-details/product-d
 import { ShopDetailsComponent } from '../components/shop-details/shop-details';
 import { ListCartComponent } from '../components/list-cart/list-cart';
 import { SearchBarComponent } from '../components/search-bar/search-bar';
+import { ListFavoriteComponent } from '../components/list-favorite/list-favorite';
+import { FavoriteProvider } from '../providers/favorite/favorite';
 
 
 export function createTranslateLoader(http: Http) {
@@ -115,7 +117,8 @@ export function createTranslateLoader(http: Http) {
     ProductDetailsComponent,
     ShopDetailsComponent,
     ListCartComponent,
-    SearchBarComponent
+    SearchBarComponent,
+    ListFavoriteComponent
 
   ],
   imports: [
@@ -169,7 +172,8 @@ export function createTranslateLoader(http: Http) {
 		Crop,
 		EmailComposer,
     SearchProvider,
-    ProfileProvider
+    ProfileProvider,
+    FavoriteProvider
   ],
   schemas: [ CUSTOM_ELEMENTS_SCHEMA ]
 })
